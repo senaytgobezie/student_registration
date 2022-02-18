@@ -251,19 +251,19 @@ void registerToCourses()
             {
                 cin.clear();
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                cout << "please, enter a valid input" << endl;
+                cout << "please, enter a valid input :" << endl;
             }
 
             Ctemp->courseNo = Stemp->reg_course[i].reg_courseNo;
-            cout<<"enter the course credit hour to register"<<endl;
+            cout<<"enter the course credit hour to register :"<<endl;
             while(!(cin>>Ctemp->creditHr))
             {
                 cin.clear();
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
-                cout << "please, enter a valid input" << endl;
+                cout << "please, enter a valid input :" << endl;
             }
             cout<<endl;
-            cout<<"do you want to register more courses(Y/N)"<<endl;
+            cout<<"do you want to register more courses(Y/N) :"<<endl;
             cin >> input;
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             //set grade to NG
