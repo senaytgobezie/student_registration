@@ -263,7 +263,7 @@ void registerToCourses()
                 cout << "please, enter a valid input :" << endl;
             }
             cout<<endl;
-            cout<<"do you want to register more courses(Y/N) :"<<endl;
+            cout<<"do you want to register more courses(Y/N)"<<endl;
             cin >> input;
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             //set grade to NG
