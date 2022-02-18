@@ -303,7 +303,7 @@ void maintainGrades()
     {
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        cout << "please, enter a valid input" << endl;
+        cout << "please, enter a valid input :" << endl;
     }
     struct Student *Stemp_2 = std_start_ptr;
     if(Stemp_2 == NULL)
@@ -324,7 +324,7 @@ void maintainGrades()
     if(foundId)
     {
         //accept registered course number
-        cout << "enter the registered course number" << endl;
+        cout << "enter the registered course number :" << endl;
         while(!(cin>>regCourseNo))
         {
             cin.clear();
@@ -353,7 +353,7 @@ void maintainGrades()
 
         }while(Stemp_2->reg_course[i].reg_courseNo != 0);
 
-        cout << "no registered courses found with " << regCourseNo << " course number" << endl;
+        cout << "no registered courses found with :" << regCourseNo << " course number" << endl;
 
     }// end of if statement
 
