@@ -26,7 +26,7 @@ struct Student
 
 };
 
-struct Course ee
+struct Course 
 {
     int courseNo;
     int creditHr;
